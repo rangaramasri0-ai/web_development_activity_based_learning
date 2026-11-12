@@ -1,0 +1,332 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TechZone - Electronics Store</title>
+    <link rel="stylesheet" href="case7.css">
+</head>
+<body>
+
+    <!-- Header and Navigation -->
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">⚡ TechZone</h1>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#products">Products</a></li>
+                <li><a href="#comparison">Compare</a></li>
+                <li><a href="#deals">Deals</a></li>
+            </ul>
+            <a href="#products" class="nav-btn">Shop Now</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+        <div class="hero-text">
+            <span class="tag">BIG ELECTRONICS SALE</span>
+            <h2>Upgrade Your Tech Life!</h2>
+            <p>Discover the latest laptops, smartphones,
+               accessories and smart devices at great prices.</p>
+            <a href="#products" class="btn">Explore Products</a>
+        </div>
+        <div class="hero-image">
+            <img
+                src="https://images.unsplash.com/photo-1498049794561-7780e7231661?auto=format&fit=crop&w=900&q=80"
+                alt="Modern electronics collection">
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+        <h2>Shop by Category</h2>
+        <div class="category-list">
+            <a href="#laptops"><img src="images (7).jpg"width="100" height="100" Laptops>Laptops</a>
+            <a href="#phones"><img src="images (8).jpg"width="100" height="100" Laptops> Smartphones</a>
+            <a href="#accessories"><img src="images (9).jpg"width="100" height="100" Laptops> Accessories</a>
+            <a href="#smart"> <img src="images (10).jpg"width="100" height="100" Laptops>Smart Devices</a>
+        </div>
+    </section>
+
+    <!-- Special Offers -->
+    <section class="deals" id="deals">
+        <h2> <img src="images (11).jpg"width="100" height="100">Special Offers</h2>
+        <p>Save more on your favorite electronics!</p>
+        <div class="deal-banner">
+            <h3>Up to 30% OFF</h3>
+            <p>Selected electronics and accessories</p>
+            <a href="#products" class="btn">View Deals</a>
+        </div>
+    </section>
+
+    <!-- Products -->
+    <section class="products" id="products">
+        <h2>Our Products</h2>
+
+        <!-- Laptops -->
+        <h3 class="category-heading" id="laptops">💻 Laptops</h3>
+        <div class="product-grid">
+
+            <article class="product-card">
+                <span class="discount">20% OFF</span>
+                <img
+                    src=
+                    alt="Silver laptop">
+                <div class="product-info">
+                    <h3>HP Pavilion Laptop</h3>
+                    <p class="description">Everyday laptop for study and work.</p>
+                    <p class="specs">Intel Core i5 | 16GB RAM | 512GB SSD</p>
+                    <p class="price">₹59,999 <del>₹74,999</del></p>
+                    <a href="#hp-details" class="btn">View Details</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <span class="discount">15% OFF</span>
+                <img
+                    src="https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=600&q=80"
+                    alt="Laptop computer">
+                <div class="product-info">
+                    <h3>MacBook Air</h3>
+                    <p class="description">Lightweight laptop for productivity.</p>
+                    <p class="specs">Apple Chip | 16GB RAM | 256GB SSD</p>
+                    <p class="price">₹89,999 <del>₹1,05,999</del></p>
+                    <a href="#mac-details" class="btn">View Details</a>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Smartphones -->
+        <h3 class="category-heading" id="phones">📱 Smartphones</h3>
+        <div class="product-grid">
+
+            <article class="product-card">
+                <span class="discount">10% OFF</span>
+                <img
+                    src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=600&q=80"
+                    alt="Smartphone">
+                <div class="product-info">
+                    <h3>Samsung Galaxy</h3>
+                    <p class="description">Brilliant display and great camera.</p>
+                    <p class="specs">8GB RAM | 256GB Storage | 5G</p>
+                    <p class="price">₹29,999 <del>₹33,333</del></p>
+                    <a href="#samsung-details" class="btn">View Details</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <span class="discount">12% OFF</span>
+                <img
+                    src="https://images.unsplash.com/photo-1592899677977-9c10ca588bbd?auto=format&fit=crop&w=600&q=80"
+                    alt="Modern smartphone">
+                <div class="product-info">
+                    <h3>iPhone</h3>
+                    <p class="description">Premium smartphone with elegant design.</p>
+                    <p class="specs">Apple Chip | 128GB Storage | 5G</p>
+                    <p class="price">₹69,999 <del>₹79,545</del></p>
+                    <a href="#iphone-details" class="btn">View Details</a>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Accessories -->
+        <h3 class="category-heading" id="accessories">🎧 Accessories</h3>
+        <div class="product-grid">
+
+            <article class="product-card">
+                <span class="discount">25% OFF</span>
+                <img
+                    src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=600&q=80"
+                    alt="Wireless headphones">
+                <div class="product-info">
+                    <h3>Wireless Headphones</h3>
+                    <p class="description">Enjoy music with comfortable headphones.</p>
+                    <p class="specs">Bluetooth | Wireless | Rechargeable</p>
+                    <p class="price">₹2,999 <del>₹3,999</del></p>
+                    <a href="#headphone-details" class="btn">View Details</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <span class="discount">20% OFF</span>
+                <img
+                    src="https://images.unsplash.com/photo-1609592806596-b43bada3f6f5?auto=format&fit=crop&w=600&q=80"
+                    alt="Portable electronic accessory">
+                <div class="product-info">
+                    <img src="images (12).jpg"class="btn">View Detail</a>
+                    <h3>Power Bank</h3>
+                    <p class="description">Portable charging for your devices.</p>
+                    <p class="specs">20000mAh | USB | Fast Charging</p>
+                    <p class="price">₹1,599 <del>₹1,999</del></p>
+                    <a href="#power-details" class="btn">View Details</a>
+                </div>
+            </article>
+
+        </div>
+
+        <!-- Smart Devices -->
+        <h3 class="category-heading" id="smart">⌚ Smart Devices</h3>
+        <div class="product-grid">
+
+            <article class="product-card">
+                <span class="discount">18% OFF</span>
+                <img
+                    src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=600&q=80"
+                    alt="Smart watch">
+                <div class="product-info">
+                    <h3>Smart Watch</h3>
+                    <p class="description">Stay connected throughout your day.</p>
+                    <p class="specs">Fitness Tracking | Bluetooth | Touchscreen</p>
+                    <p class="price">₹3,299 <del>₹4,000</del></p>
+                    <a href="#watch-details" class="btn">View Details</a>
+                </div>
+            </article>
+
+            <article class="product-card">
+                <span class="discount">15% OFF</span>
+                <img
+                    src="https://images.unsplash.com/photo-1608156639585-b3a032ef9689?auto=format&fit=crop&w=600&q=80"
+                    alt="Wireless earbuds">
+                <div class="product-info">
+                    <h3>Wireless Earbuds</h3>
+                    <p class="description">Compact earbuds for everyday listening.</p>
+                    <p class="specs">Bluetooth | Charging Case | Microphone</p>
+                    <p class="price">₹1,699 <del>₹1,999</del></p>
+                    <a href="#earbuds-details" class="btn">View Details</a>
+                </div>
+            </article>
+
+        </div>
+    </section>
+
+    <!-- Product Details -->
+    <section class="details" id="details">
+        <h2>Product Details & Specifications</h2>
+
+        <div class="detail-box" id="hp-details">
+            <h3>HP Pavilion Laptop</h3>
+            <p>Category: Laptop</p>
+            <p>Processor: Intel Core i5</p>
+            <p>Memory: 16GB RAM</p>
+            <p>Storage: 512GB SSD</p>
+            <p>Display: Full HD (model dependent)</p>
+            <p>Listed Price: ₹59,999</p>
+        </div>
+
+        <div class="detail-box" id="mac-details">
+            <h3>MacBook Air</h3>
+            <p>Category: Laptop</p>
+            <p>Processor: Apple Chip</p>
+            <p>Memory: 16GB RAM</p>
+            <p>Storage: 256GB SSD</p>
+            <p>Listed Price: ₹89,999</p>
+        </div>
+
+        <div class="detail-box" id="samsung-details">
+            <h3>Samsung Galaxy</h3>
+            <p>Category: Smartphone</p>
+            <p>Memory: 8GB RAM</p>
+            <p>Storage: 256GB</p>
+            <p>Network: 5G</p>
+            <p>Listed Price: ₹29,999</p>
+        </div>
+
+        <div class="detail-box" id="iphone-details">
+            <h3>iPhone</h3>
+            <p>Category: Smartphone</p>
+            <p>Storage: 128GB</p>
+            <p>Processor: Apple Chip</p>
+            <p>Network: 5G</p>
+            <p>Listed Price: ₹69,999</p>
+        </div>
+
+        <div class="detail-box" id="headphone-details">
+            <h3>Wireless Headphones</h3>
+            <p>Category: Accessories</p>
+            <p>Connectivity: Bluetooth</p>
+            <p>Power: Rechargeable battery</p>
+            <p>Listed Price: ₹2,999</p>
+        </div>
+
+        <div class="detail-box" id="power-details">
+            <h3>Power Bank</h3>
+            <p>Category: Accessories</p>
+            <p>Capacity: 20000mAh</p>
+            <p>Feature: Fast charging</p>
+            <p>Listed Price: ₹1,599</p>
+        </div>
+
+        <div class="detail-box" id="watch-details">
+            <h3>Smart Watch</h3>
+            <p>Category: Smart Device</p>
+            <p>Features: Fitness tracking and Bluetooth</p>
+            <p>Display: Touchscreen</p>
+            <p>Listed Price: ₹3,299</p>
+        </div>
+
+        <div class="detail-box" id="earbuds-details">
+            <h3>Wireless Earbuds</h3>
+            <p>Category: Smart Device</p>
+            <p>Connectivity: Bluetooth</p>
+            <p>Features: Microphone and charging case</p>
+            <p>Listed Price: ₹1,699</p>
+        </div>
+    </section>
+
+    <!-- Product Comparison Table -->
+    <section class="comparison" id="comparison">
+        <h2>Compare Products</h2>
+        <div class="table-container">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Specification</th>
+                        <th>HP Pavilion</th>
+                        <th>MacBook Air</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Category</td>
+                        <td>Laptop</td>
+                        <td>Laptop</td>
+                    </tr>
+                    <tr>
+                        <td>Processor</td>
+                        <td>Intel Core i5</td>
+                        <td>Apple Chip</td>
+                    </tr>
+                    <tr>
+                        <td>RAM</td>
+                        <td>16GB</td>
+                        <td>16GB</td>
+                    </tr>
+                    <tr>
+                        <td>Storage</td>
+                        <td>512GB SSD</td>
+                        <td>256GB SSD</td>
+                    </tr>
+                    <tr>
+                        <td>Listed Price</td>
+                        <td>₹59,999</td>
+                        <td>₹89,999</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <h2>⚡ TechZone</h2>
+        <p>Your destination for the latest electronics.</p>
+        <p>Contact: support@techzone.example</p>
+        <p>© 2026 TechZone. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
