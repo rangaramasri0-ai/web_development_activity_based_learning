@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Fest 2026</title>
+    <link rel="stylesheet" href="case26.css">
+</head>
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+            <h2>🎉 College Fest 2026</h2>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#schedule">Schedule</a></li>
+                <li><a href="#rules">Rules</a></li>
+                <li><a href="#register">Register</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Event Banner -->
+    <section class="hero" id="home">
+        <div class="hero-content">
+            <h1>WELCOME TO COLLEGE FEST 2026</h1>
+            <p>Celebrate Talent, Creativity and Innovation!</p>
+            <p>📅 December 10–12, 2026</p>
+            <a href="#register" class="btn">Register Now</a>
+        </div>
+    </section>
+
+    <!-- About -->
+    <section class="about">
+        <h2>About Our Fest</h2>
+        <p>
+            College Fest 2026 is a celebration of knowledge, culture,
+            creativity and teamwork. Join us for exciting competitions,
+            technical events, cultural performances and workshops.
+        </p>
+    </section>
+
+    <!-- Events -->
+    <section class="events" id="events">
+        <h2>Our Events</h2>
+
+        <div class="event-container">
+
+            <div class="event-card">
+                <img
+                    src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=700&q=80"
+                    alt="Students working on computers">
+                <h3>Technical Events</h3>
+                <p>Explore technology and showcase your skills.</p>
+                <ul>
+                    <li>Coding Competition</li>
+                    <li>Web Design</li>
+                    <li>Project Expo</li>
+                    <li>Quiz Competition</li>
+                </ul>
+            </div>
+
+            <div class="event-card">
+                <img
+                    src="https://images.unsplash.com/photo-1501386761578-eac5c94b800a?auto=format&fit=crop&w=700&q=80"
+                    alt="Music festival and cultural celebration">
+                <h3>Cultural Events</h3>
+                <p>Show your talent through art and performance.</p>
+                <ul>
+                    <li>Dance Competition</li>
+                    <li>Singing</li>
+                    <li>Drama</li>
+                    <li>Fashion Show</li>
+                </ul>
+            </div>
+
+            <div class="event-card">
+                <img
+                    src="https://images.unsplash.com/photo-1544531586-fde5298cdd40?auto=format&fit=crop&w=700&q=80"
+                    alt="People attending a workshop">
+                <h3>Workshops</h3>
+                <p>Learn new skills from interactive sessions.</p>
+                <ul>
+                    <li>Artificial Intelligence</li>
+                    <li>Web Development</li>
+                    <li>Robotics</li>
+                    <li>Entrepreneurship</li>
+                </ul>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Schedule -->
+    <section class="schedule" id="schedule">
+        <h2>Event Schedule</h2>
+
+        <div class="table-container">
+            <table>
+                <tr>
+                    <th>Date</th>
+                    <th>Time</th>
+                    <th>Event</th>
+                    <th>Venue</th>
+                </tr>
+                <tr>
+                    <td>10 Dec 2026</td>
+                    <td>9:00 AM</td>
+                    <td>Inauguration</td>
+                    <td>Main Auditorium</td>
+                </tr>
+                <tr>
+                    <td>10 Dec 2026</td>
+                    <td>11:00 AM</td>
+                    <td>Coding Competition</td>
+                    <td>Computer Lab</td>
+                </tr>
+                <tr>
+                    <td>11 Dec 2026</td>
+                    <td>10:00 AM</td>
+                    <td>Technical Workshop</td>
+                    <td>Seminar Hall</td>
+                </tr>
+                <tr>
+                    <td>11 Dec 2026</td>
+                    <td>2:00 PM</td>
+                    <td>Dance Competition</td>
+                    <td>Open Stage</td>
+                </tr>
+                <tr>
+                    <td>12 Dec 2026</td>
+                    <td>4:00 PM</td>
+                    <td>Prize Distribution</td>
+                    <td>Main Auditorium</td>
+                </tr>
+            </table>
+        </div>
+    </section>
+
+    <!-- Coordinators -->
+    <section class="coordinators">
+        <h2>Event Coordinators</h2>
+
+        <div class="coordinator-container">
+            <div class="coordinator-card">
+                <h3>Technical Coordinator</h3>
+                <p>Name: Rahul Kumar</p>
+                <p>Department: CSE</p>
+                <p>Email: techfest@example.com</p>
+            </div>
+
+            <div class="coordinator-card">
+                <h3>Cultural Coordinator</h3>
+                <p>Name: Priya Sharma</p>
+                <p>Department: ECE</p>
+                <p>Email: cultural@example.com</p>
+            </div>
+
+            <div class="coordinator-card">
+                <h3>Workshop Coordinator</h3>
+                <p>Name: Arjun Reddy</p>
+                <p>Department: IT</p>
+                <p>Email: workshops@example.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Rules -->
+    <section class="rules" id="rules">
+        <h2>Fest Rules and Guidelines</h2>
+        <ol>
+            <li>Students must carry their college ID cards.</li>
+            <li>Participants must register before the deadline.</li>
+            <li>Maintain discipline and follow the organizers' instructions.</li>
+            <li>Report to the venue before the event starts.</li>
+            <li>Respect other participants and judges.</li>
+            <li>The organizers' decisions will be final.</li>
+        </ol>
+    </section>
+
+    <!-- Registration Form -->
+    <section class="register" id="register">
+        <h2>Event Registration</h2>
+        <p>Fill in the form to register for the college fest.</p>
+
+        <form action="#" method="post">
+            <label for="name">Full Name</label>
+            <input type="text" id="name" name="name"
+                   placeholder="Enter your name" required>
+
+            <label for="roll">Roll Number</label>
+            <input type="text" id="roll" name="roll"
+                   placeholder="Enter your roll number" required>
+
+            <label for="department">Department</label>
+            <select id="department" name="department" required>
+                <option value="">Select Department</option>
+                <option>CSE</option>
+                <option>ECE</option>
+                <option>EEE</option>
+                <option>IT</option>
+                <option>Mechanical</option>
+                <option>Civil</option>
+            </select>
+
+            <label for="email">Email Address</label>
+            <input type="email" id="email" name="email"
+                   placeholder="Enter your email" required>
+
+            <label for="event">Choose Event</label>
+            <select id="event" name="event" required>
+                <option value="">Select an Event</option>
+                <option>Coding Competition</option>
+                <option>Web Design</option>
+                <option>Project Expo</option>
+                <option>Dance Competition</option>
+                <option>Singing</option>
+                <option>AI Workshop</option>
+                <option>Robotics Workshop</option>
+            </select>
+
+            <label for="message">Additional Information</label>
+            <textarea id="message" name="message"
+                      placeholder="Write a message (optional)"
+                      rows="4"></textarea>
+
+            <button type="submit">Submit Registration</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 College Fest | All Rights Reserved</p>
+        <p>Designed by College Students</p>
+    </footer>
+
+</body>
+</html>
