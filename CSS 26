@@ -1,0 +1,345 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f6fb;
+    color: #222;
+}
+
+h2 {
+    text-align: center;
+    color: #24205e;
+    margin-bottom: 25px;
+}
+
+/* Navigation Bar */
+header {
+    background-color: #24205e;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 18px 6%;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.navbar h2 {
+    color: white;
+    margin: 0;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    color: #ffd166;
+}
+
+/* Hero Banner */
+.hero {
+    min-height: 430px;
+    background:
+        linear-gradient(rgba(25, 20, 70, 0.72),
+                        rgba(25, 20, 70, 0.72)),
+        url("https://images.unsplash.com/photo-1492684223066-81342ee5ff30?auto=format&fit=crop&w=1600&q=85");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 40px 20px;
+}
+
+.hero-content h1 {
+    font-size: 42px;
+    margin-bottom: 15px;
+}
+
+.hero-content p {
+    font-size: 19px;
+    margin-bottom: 12px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 12px 25px;
+    background-color: #ffb703;
+    color: #222;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #fb8500;
+    color: white;
+}
+
+/* About Section */
+.about {
+    padding: 50px 10%;
+    text-align: center;
+    background-color: white;
+}
+
+.about p {
+    max-width: 850px;
+    margin: auto;
+    font-size: 17px;
+}
+
+/* Events Section */
+.events {
+    padding: 50px 6%;
+}
+
+.event-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 25px;
+}
+
+.event-card {
+    background-color: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+    padding-bottom: 20px;
+}
+
+.event-card:hover {
+    transform: translateY(-8px);
+}
+
+.event-card img {
+    width: 100%;
+    height: 210px;
+    object-fit: cover;
+}
+
+.event-card h3 {
+    color: #e63946;
+    margin: 18px 20px 8px;
+}
+
+.event-card p {
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+
+.event-card ul {
+    padding-left: 40px;
+}
+
+/* Schedule Table */
+.schedule {
+    background-color: white;
+    padding: 50px 6%;
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 600px;
+}
+
+th, td {
+    padding: 14px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+
+th {
+    background-color: #24205e;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #f0efff;
+}
+
+/* Coordinators */
+.coordinators {
+    padding: 50px 6%;
+}
+
+.coordinator-container {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+.coordinator-card {
+    background-color: white;
+    padding: 25px;
+    border-left: 5px solid #ffb703;
+    border-radius: 8px;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.08);
+}
+
+.coordinator-card h3 {
+    color: #24205e;
+    margin-bottom: 12px;
+}
+
+/* Rules Section */
+.rules {
+    background-color: #e9e8ff;
+    padding: 45px 10%;
+}
+
+.rules ol {
+    max-width: 800px;
+    margin: auto;
+}
+
+.rules li {
+    padding: 7px 0;
+}
+
+/* Registration Form */
+.register {
+    padding: 50px 20px;
+    background-color: white;
+}
+
+.register > p {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+form {
+    max-width: 550px;
+    margin: auto;
+    padding: 25px;
+    background-color: #f4f6fb;
+    border-radius: 12px;
+}
+
+form label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 6px;
+    border: 1px solid #bbb;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+form input:focus,
+form select:focus,
+form textarea:focus {
+    outline: 2px solid #6c63ff;
+    border-color: #6c63ff;
+}
+
+form button {
+    width: 100%;
+    margin-top: 22px;
+    padding: 13px;
+    background-color: #e63946;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #b91c2b;
+}
+
+/* Footer */
+footer {
+    background-color: #24205e;
+    color: white;
+    text-align: center;
+    padding: 22px;
+}
+
+/* Responsive Design */
+@media (max-width: 900px) {
+    .event-container,
+    .coordinator-container {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+
+    .hero-content h1 {
+        font-size: 32px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar {
+        flex-direction: column;
+    }
+
+    .navbar ul {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .event-container,
+    .coordinator-container {
+        grid-template-columns: 1fr;
+    }
+
+    .hero {
+        min-height: 350px;
+    }
+
+    .hero-content h1 {
+        font-size: 27px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    .about,
+    .events,
+    .schedule,
+    .coordinators,
+    .rules {
+        padding: 35px 5%;
+    }
+}
